@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springmvc_formData/springmvc_formData.iml" filepath="$PROJECT_DIR$/springmvc_formData/springmvc_formData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmve_01/springmve_01.iml" filepath="$PROJECT_DIR$/springmve_01/springmve_01.iml" />
+    </modules>
+  </component>
+</project>
