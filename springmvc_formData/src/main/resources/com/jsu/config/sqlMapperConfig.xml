@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+                <property name="url"
+                          value="jdbc:mysql://localhost:3306/transactiontest?useUnicode=true&amp;characterEncoding=utf-8"/>
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--加载每一个表的sql语句
+        每一个表对应一个对象，
+        每一个对象对应xxxMapper
+    -->
+    <mappers>
+        <!--
+        将包内的映射器接口实现全部注册为映射器
+        需要映射接口和映射文件同名
+        <package name="com.jsu.dao"/>
+        -->
+
+        <!--
+        使用相对于类路径的资源引用-->
+        <mapper resource="com/jsu/dao/CardDao.xml"/>
+        <mapper resource="com/jsu/dao/PersonDao.xml"/>
+
+    </mappers>
+
+</configuration>
