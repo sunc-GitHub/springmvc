@@ -60,7 +60,7 @@ public class StringDateHandler extends BaseTypeHandler<Date> {
 }
 ```
 
-3. 最后，可以让 MyBatis 帮你查找类型处理器：
+3. **最后，可以让 MyBatis 帮你查找类型处理器：**
 
 ```
 <!-- mybatis-config.xml -->
