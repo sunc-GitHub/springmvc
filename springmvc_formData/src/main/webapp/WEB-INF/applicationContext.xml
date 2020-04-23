@@ -9,7 +9,7 @@
       use-default-filter 使用默认的过滤器 @controller @service @Resposity @compoment
     -->
     <!--spring自动扫描-->
-    <context:component-scan base-package="com.jsu" use-default-filters="true">
+    <context:component-scan base-package="com.jsu.js" use-default-filters="true">
         <!--扫描的时候不扫描Controller-->
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
@@ -19,7 +19,7 @@
         <property name="username" value="root"/>
         <property name="password" value="root"/>
         <property name="url"
-                  value="jdbc:mysql://localhost:3306/transactiontest?useUnicode=true&amp;characterEncoding=utf-8"/>
+                  value="jdbc:mysql://localhost:3306/test2?useUnicode=true&amp;characterEncoding=utf-8"/>
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
     </bean>
 
@@ -56,6 +56,10 @@
                 <property name="aggressiveLazyLoading" value="false"/>
             </bean>
         </property>
+
+        <!-- mybatis类型处理器（typeHandlers） 扫描typHandler包下面的-->
+        <property name="typeHandlersPackage" value="com.jsu.js.typHandler"></property>
+
         <!-- 配置数据源 -->
         <property name="dataSource" ref="dataSource"/>
     </bean>
@@ -63,7 +67,7 @@
     <!--mybatis自动扫描
         自动扫描映射接口xxxMapper，产生代理对象
     -->
-    <mybatis:scan base-package="com.jsu.dao"/>
+    <mybatis:scan base-package="com.jsu.js.dao"/>
 
     <!--开启注解事务-->
     <tx:annotation-driven transaction-manager="transactionManager"/>

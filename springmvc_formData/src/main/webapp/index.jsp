@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<a href="${pageContext.request.contextPath}/userTest/inputUser.action">注册</a>
+<a href="${pageContext.request.contextPath}/userController/inputUser.action">注册</a>
 
 </body>
 </html>
