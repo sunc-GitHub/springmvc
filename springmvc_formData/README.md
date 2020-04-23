@@ -1,4 +1,4 @@
-在逆向工程中实现自定义类型处理器（typeHandlers）
+# 在逆向工程中实现自定义类型处理器（typeHandlers）
 
 在mybatis-generator.xml的table标签中，添加columnOverride标签
 `<columnOverride column="birthDay"  property="birthDay" jdbcType="DATE" 			javaType="java.util.Date" />`
