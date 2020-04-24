@@ -13,11 +13,10 @@
 
     items 准备的数据，不能为空
     //register.jsp itmes 接收的数据类型
-    //1.map value = key,显示的value
-    model.addAttribute("hobbys", hobbys);
+    //1.map类型 value = map.key,显示的map.value
     //2.数组类型
-    model.addAttribute("carrers",new String[]{"教师","学生","医生","IT民工","其它"});
     //3.集合
+    //4.集合对象 itemValue,itemLabel 为option标签的name ,显示值
 --%>
 <form:form modelAttribute="user" method="post"
            action="${pageContext.request.contextPath}/userController/saveUser.action">
@@ -37,33 +36,40 @@
     </p>
     <p>
         <label>爱好:</label>
-            <%--value = map.key,显示的map.value--%>
-        <form:checkboxes items="${hobbys}" path="hobby"/>
+        <%--1.map类型 value = map.key,显示的map.value
+            HashMap<Integer, String> hobbies = new HashMap<Integer, String>();
+            hobbies.put(1, "篮球");
+        --%>
+        <form:checkboxes items="${hobbies}" path="hobby"/>
     </p>
     <p>
         <label>人脉:</label>
-        <form:checkbox path="contacts" value="张三"/>张三
-        <form:checkbox path="contacts" value="李四"/>李四
-        <form:checkbox path="contacts" value="王五"/>王五
-        <form:checkbox path="contacts" value="赵六"/>赵六
+        <%--3.集合类型
+        --%>
+        <%-- name = contact --%>
+        <form:checkboxes path="contacts" items="${contacts}"/>
+        <%--<form:checkbox path="contacts" value=""/>--%>
     </p>
     <p>
         <label>职业:</label>
         <form:select path="carrer">
             <option/>
             请选择职业
-            <form:options items="${carrers }"/>
+            <%--2.数组类型
+             new String[]{"教师", "学生", "医生", "IT民工", "其它"}
+            --%>
+            <form:options items="${careers }"/>
         </form:select>
     </p>
     <p>
         <label>户籍:</label>
         <form:select path="houseRegister">
             <option>请选择户籍</option>
-            <option value="1">北京</option>
-            <option value="2">上海</option>
-            <option value="3">广州</option>
-            <option value="4">深圳</option>
-            <option value="5">其它</option>
+            <%--4.集合对象 itemValue,itemLabel 为option标签的name ,显示值
+                id，name 为实体对象的属性
+            --%>
+            <form:options items="${houseRegister}" itemValue="id" itemLabel="name" />
+
         </form:select>
     </p>
     <p>

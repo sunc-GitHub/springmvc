@@ -1,6 +1,7 @@
 package com.jsu.js.controller;
 
 
+import com.jsu.js.pojo.District;
 import com.jsu.js.pojo.User;
 import com.jsu.js.service.Imp.UserServiceImp;
 import com.jsu.js.service.UserService;
@@ -11,7 +12,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * @Auther: next door
@@ -40,17 +43,40 @@ public class UserController {
     @RequestMapping(value = "inputUser.action", method = RequestMethod.GET)
     public String inputUser(Model model) {
         model.addAttribute("user", new User());
-        HashMap<Integer, String> hobbys = new HashMap<Integer, String>();
-        hobbys.put(1, "篮球");
-        hobbys.put(2, "羽毛球");
-        hobbys.put(3, "台球");
-        hobbys.put(4, "游泳");
+        HashMap<Integer, String> hobbies = new HashMap<Integer, String>();
+        hobbies.put(1, "篮球");
+        hobbies.put(2, "羽毛球");
+        hobbies.put(3, "台球");
+        hobbies.put(4, "游泳");
         model.addAttribute("user", new User());
-        //register.jsp itmes 接收的数据类型
+
+        List contacts = new ArrayList(10);
+        contacts.add("张三");
+        contacts.add("李四");
+        contacts.add("王五");
+        contacts.add("赵六");
+
+        /*<option value="1">北京</option>
+            <option value="2">上海</option>
+            <option value="3">广州</option>
+            <option value="4">深圳</option>
+            <option value="5">其它</option>*/
+        List houseRegister = new ArrayList(10);
+        houseRegister.add(new District(1, "北京"));
+        houseRegister.add(new District(2, "上海"));
+        houseRegister.add(new District(3, "深圳"));
+        houseRegister.add(new District(4, "其它"));
+
+
+        //register.jsp items 接收的数据类型
         //1.map value = key,显示的value
-        model.addAttribute("hobbys", hobbys);
+        model.addAttribute("hobbies", hobbies);
         //2.数组类型
-        model.addAttribute("carrers", new String[]{"教师", "学生", "医生", "IT民工", "其它"});
+        model.addAttribute("careers", new String[]{"教师", "学生", "医生", "IT民工", "其它"});
+        //3.集合类型
+        model.addAttribute("contacts", contacts);
+        //4.集合对象类型
+        model.addAttribute("houseRegister", houseRegister);
         return "register";
     }
 
