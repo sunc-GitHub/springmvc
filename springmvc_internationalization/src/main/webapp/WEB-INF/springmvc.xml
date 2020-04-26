@@ -30,4 +30,34 @@
 
     <mvc:annotation-driven conversion-service="conversionService"/>
 
+
+
+    <!--
+        springmvc国际化
+        1.加载资源文件
+        baseName.properties baseName_en.properties baseName_en_Us.properties
+    -->
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>/WEB-INF/resource/message</value>
+            </list>
+        </property>
+    </bean>
+
+    <!--
+        2.设置Locale
+            request域 AcceptHeaderLocaleResolver 获得请求作用域中的Locale
+                    request.setLocal
+            session中设置 SessionLocalResolver
+                        在服务器内存中开辟空间Session信息，locale,sessionId）
+            cookie中设置 CookieLocaleResolver
+
+        3.在页面显示内容
+            springmvc标签
+    -->
+    <bean class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+
+    </bean>
+
 </beans>

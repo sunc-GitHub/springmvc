@@ -40,7 +40,7 @@ public class UserController {
     }
 
     /*
-     *1. jsp的编码方式 jsp--翻译（ppasswordEncoding）--->servlet-javac编译（unicode uft-8）--
+     *1. jsp的编码方式 jsp--翻译（pageEncoding）--->servlet-javac编译（unicode uft-8）--
      *    servlet.class-tomcat-response进行响应（contentType）-客户端
      * 2.
      */

@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springmvc_converter" />
+        <module name="springmvc_internationalization" />
         <module name="springmve_01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springmvc_converter" target="1.7" />
       <module name="springmvc_formData" target="1.7" />
+      <module name="springmvc_internationalization" target="1.7" />
       <module name="springmve_01" target="1.7" />
     </bytecodeTargetLevel>
   </component>

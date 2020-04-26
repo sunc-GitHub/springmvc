@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springmvc_internationalization:war">
+    <output-path>$PROJECT_DIR$/springmvc_internationalization/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springmvc_internationalization</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springmvc_internationalization.war">
+      <element id="artifact" artifact-name="springmvc_internationalization:war exploded" />
+    </root>
+  </artifact>
+</component>

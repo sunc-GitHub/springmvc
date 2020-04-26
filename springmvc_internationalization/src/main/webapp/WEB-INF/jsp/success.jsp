@@ -1,5 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
 <head>
     <title>Title</title>
@@ -9,6 +8,13 @@
 <p>${goods.price}</p>
 <p>${goods.quantity}</p>
 <p>${goods.date}</p>
+
+
+<%--
+   message标签，负责从资源文件中获取数据 ，code就是资源文件中的key
+--%>
+<spring:message code="hello"></spring:message>
+
 </body>
 </html>
 

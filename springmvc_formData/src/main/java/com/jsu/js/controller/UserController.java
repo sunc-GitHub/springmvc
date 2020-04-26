@@ -8,6 +8,7 @@ import com.jsu.js.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -41,7 +42,7 @@ public class UserController {
 
 
     @RequestMapping(value = "inputUser.action", method = RequestMethod.GET)
-    public String inputUser(Model model) {
+    public String inputUser(Model model, ModelMap modelMap) {
         model.addAttribute("user", new User());
         HashMap<Integer, String> hobbies = new HashMap<Integer, String>();
         hobbies.put(1, "篮球");

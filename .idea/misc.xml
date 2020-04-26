@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springmvc_converter" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc_formData" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_internationalization" />
     <file type="web" url="file://$PROJECT_DIR$/springmve_01" />
   </component>
   <component name="MavenProjectsManager">
@@ -10,6 +11,7 @@
       <list>
         <option value="$PROJECT_DIR$/springmve_01/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc_formData/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_internationalization/pom.xml" />
       </list>
     </option>
   </component>

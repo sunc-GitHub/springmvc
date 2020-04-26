@@ -17,6 +17,7 @@
     </form>
 </div>
 
-
+<h3>springmvc国际化</h3>
+<a href="il8n/sessionLocalResover"></a>
 </body>
 </html>
