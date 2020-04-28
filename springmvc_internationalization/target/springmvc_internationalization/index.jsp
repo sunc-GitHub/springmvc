@@ -17,6 +17,8 @@
     </form>
 </div>
 
-
+<h3>springmvc国际化</h3>
+<a href="il8n/sessionLocaleResover?requst_Locale=zh_CN">中文</a>
+<a href="il8n/sessionLocaleResover?requst_Locale=en_US">英文</a>
 </body>
 </html>

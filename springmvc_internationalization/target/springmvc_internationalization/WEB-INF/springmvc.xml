@@ -30,4 +30,55 @@
 
     <mvc:annotation-driven conversion-service="conversionService"/>
 
+
+
+    <!--
+        springmvc国际化
+        1.加载资源文件
+        baseName.properties baseName_en.properties baseName_en_Us.properties
+    -->
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>/WEB-INF/resource/message</value>
+            </list>
+        </property>
+        <property name="cacheSeconds" value="0"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
+
+    <!--
+        2.设置Locale
+            request域 AcceptHeaderLocaleResolver 获得请求作用域中的Locale
+                    request.setLocal
+            session中设置 SessionLocalResolver
+                        在服务器内存中开辟空间Session信息，locale,sessionId）
+            cookie中设置 CookieLocaleResolver
+
+        3.在页面显示内容
+            springmvc标签
+    -->
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+        <property name="defaultLocale" value="zh_CN"/>
+        <!--
+            LOCALE_SESSION_ATTRIBUTE_NAME 变为language
+        -->
+        <property name="localeAttributeName"  value="language"/>
+     </bean>
+
+
+    <!-- 拦截器自动设置locale-->
+    <mvc:interceptors>
+        <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+            <!--请求参数设置Locale值的参数名-->
+            <property name="paramName" value="request_locale"/>
+        </bean>
+    </mvc:interceptors>
+
+
+    <!--
+        设置请求转发路径，相当于经过一次controller方法的请求转发
+    -->
+    <mvc:view-controller path="/il8n/sessionLocaleResover" view-name="success"/>
+
 </beans>
