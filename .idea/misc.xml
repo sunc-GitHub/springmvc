@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_ajax" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc_converter" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc_formData" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_interceptor" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc_internationalization" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_serverValidation" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc_upload" />
     <file type="web" url="file://$PROJECT_DIR$/springmve_01" />
   </component>
   <component name="MavenProjectsManager">
@@ -12,10 +16,14 @@
         <option value="$PROJECT_DIR$/springmve_01/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc_formData/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc_internationalization/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_serverValidation/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_upload/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_ajax/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc_interceptor/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

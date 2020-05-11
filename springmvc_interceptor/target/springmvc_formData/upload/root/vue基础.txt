@@ -1,0 +1,81 @@
+1.模板语法：
+	var app = new Vue({
+		el:"#app",
+		data:{
+		},
+		methods:{
+		},
+	})
+	
+	{{}}
+
+2.vue的声明周期钩子函数
+	beforeCreate:在Vue实例创建之前执行的函数
+	created:实例创建完成后调用
+	beforeMount:在Vue创建之后，数据未渲染负责接管DOM之前执行的函数
+	mounted:el挂载到实例上后调用（first）
+	beforeDestory：Vue实例销毁之前调用
+	destroyed:Vue实例在执行vm.destroyed()命令之后,销毁之后执行的函数
+	beforeUpdate:在Vue实例数据更新之前执行的函数
+	updated:在Vue实例数据更新之后执行的函数
+
+
+2.数据绑定
+	单向绑定：{{data}}
+	表单双向绑定:添加属性v-model="data"
+	绑定属性：v-bind:属性名="data" 或者 :属性名="data"
+	绑定事件：v-on:事件名="fun" 或者 @事件名="fun"
+
+3.计算属性----用于根据原有数据经过逻辑处理后得到的另一个数据然后及时数据绑定
+	computed:{
+		data1:function(){return this.data+1},
+		data2:function(){return this.data+2},
+		data3:{
+		},
+	}
+
+4.监听属性----数据变动时调用
+	1.浅监听(用于变量只是基本数据类型时)
+		watch:{
+			data:function(newValue,oldValue){
+				//***一系列操作
+			}
+		}
+	2.深度监听(用于变量是引用类型时)
+		watch:{
+			data:{
+				handler:function(newValue,oldValue){
+					//***一系列操作
+				}，
+				deep: true
+			}
+		}
+
+5.内置指令
+	v-cloak：能够解决插值表达式闪烁的问题
+	v-once:指令只渲染元素和组件一次
+	v-text:渲染文本元素
+	v-html:渲染html元素
+	v-bind:绑定属性
+	v-on:绑定事件
+	v-show:隐藏(相当于控制display:none)
+	v-if:条件渲染(与v-show的区别是if控制元素是否存在，show是控制元素是否隐藏)
+	v-for：列表渲染
+	key="唯一"(用于避免元素复用)
+
+6.条件渲染
+	<template v-if="条件表达式">
+	</template>
+	<template v-else-if="条件表达式">
+	</template>
+	<template v-else-if="条件表达式">
+	</template>
+
+7.列表渲染
+	<template v-for="(index,item) in items">
+	index:索引
+	item:遍历的每一项
+	items:数组
+
+
+	

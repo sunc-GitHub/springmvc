@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/springmvc_ajax/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_ajax/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc_converter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc_converter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc_converter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc_formData" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc_formData/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc_formData/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_interceptor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc_internationalization" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc_internationalization/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc_internationalization/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_serverValidation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_serverValidation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springmvc_upload/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmve_01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmve_01/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmve_01/src/main/resources" charset="UTF-8" />

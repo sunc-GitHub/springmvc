@@ -60,6 +60,13 @@ public class StringDateHandler extends BaseTypeHandler<Date> {
 }
 ```
 
+```xml
+<!-- mybatis-config.xml -->
+<typeHandlers>
+  <typeHandler handler="org.mybatis.example.ExampleTypeHandler"/>
+</typeHandlers>
+```
+
 3. **最后，可以让 MyBatis 帮你查找类型处理器：**
 
 ```

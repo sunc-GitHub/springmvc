@@ -13,7 +13,7 @@
 
     <typeHandlers>
         <!--类处理器-->
-        <package name="com.jsu.js.typHandler"/>
+        <package name="com.jsu.js.typeHandler"/>
     </typeHandlers>
 
     <environments default="development">

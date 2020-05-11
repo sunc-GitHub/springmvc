@@ -43,6 +43,7 @@
                 <value>/WEB-INF/resource/message</value>
             </list>
         </property>
+        <!-- 设置utf-8编码-->
         <property name="cacheSeconds" value="0"/>
         <property name="defaultEncoding" value="UTF-8"/>
     </bean>
@@ -52,33 +53,49 @@
             request域 AcceptHeaderLocaleResolver 获得请求作用域中的Locale
                     request.setLocal
             session中设置 SessionLocalResolver
-                        在服务器内存中开辟空间Session信息，locale,sessionId）
+                        在服务器内存中开辟空间，以(sessionId,locale对象）存储在session域中
             cookie中设置 CookieLocaleResolver
 
         3.在页面显示内容
             springmvc标签
     -->
     <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+        <!--配置默认的locale-->
         <property name="defaultLocale" value="zh_CN"/>
         <!--
-            LOCALE_SESSION_ATTRIBUTE_NAME 变为language
+            配置session中参数名
+            如果不设置,那么locale对象以
+            (类)SessionLocaleResolver.LOCALE_SESSION_ATTRIBUTE_NAME为 sessionId，
+            存储在session域中
         -->
-        <property name="localeAttributeName"  value="language"/>
+        <property name="localeAttributeName" value="language" />
      </bean>
 
 
-    <!-- 拦截器自动设置locale-->
+    <!--配置locale的拦截器-->
     <mvc:interceptors>
         <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
-            <!--请求参数设置Locale值的参数名-->
-            <property name="paramName" value="request_locale"/>
+            <!--
+                前端通常会附带一个参数，例如
+                <a href="il8n/sessionLocaleResover?requst_Locale=zh_CN">中文</a>
+                此时参数requst_Locale为参数名value值，参数的值‘zh_CN’将会赋值给locale对象
+            -->
+            <property name="paramName" value="requst_Locale"/>
         </bean>
     </mvc:interceptors>
 
 
     <!--
         设置请求转发路径，相当于经过一次controller方法的请求转发
+        path 接收请求 相当与@requestMapping
+        view-name 请求转发的页面 相当于 return "success";
     -->
     <mvc:view-controller path="/il8n/sessionLocaleResover" view-name="success"/>
+
+    <!--
+       DispatchServlet不拦截静态资源
+       http://localhost:8080/springmvc_05_i18n_war_exploded/static/js/jquery.min.js
+   -->
+    <mvc:resources mapping="/static/**" location="/static/" />
 
 </beans>

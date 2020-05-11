@@ -58,7 +58,7 @@
         </property>
 
         <!-- mybatis类型处理器（typeHandlers） 扫描typHandler包下面的-->
-        <property name="typeHandlersPackage" value="com.jsu.js.typHandler"></property>
+        <property name="typeHandlersPackage" value="com.jsu.js.typeHandler"></property>
 
         <!-- 配置数据源 -->
         <property name="dataSource" ref="dataSource"/>

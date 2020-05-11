@@ -2,28 +2,417 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="springmvc_internationalization:war exploded" />
+      <artifact name="springmvc_ajax:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44d7a408-d4f7-4dd4-9dcc-d7f8b3946c02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/服务器验证.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_serverValidation_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_serverValidation_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_upload_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_upload_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/.rebel.xml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/mvn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/mybatis-generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/springmvc_ajax.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/springmvc_serverValidation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/springmvc_upload.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/Exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/Exception/MyExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/commons/RegexUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/commons/UploadUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/controller/ExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/converter/DateFormater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/converter/StringDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/pojo/Msg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/pojo/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/service/Imp/UserServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/typeHandler/BooleanHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/typeHandler/DateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/java/com/jsu/js/typeHandler/StringArrayHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/resources/com/jsu/config/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/resources/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/resources/com/jsu/js/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/test/xx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/WEB-INF/jsp/Ajaxregister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/WEB-INF/jsp/error/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/WEB-INF/jsp/error/notFound.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/WEB-INF/resource/message_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/WEB-INF/resource/message_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/WEB-INF/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/upload/root/vue基础.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/src/main/webapp/upload/root/新建 Microsoft Excel 工作表.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/config/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/Exception/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/Exception/MyExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/commons/RegexUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/commons/UploadUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/controller/ExceptionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/converter/DateFormater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/converter/StringDateConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/pojo/Msg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/service/Imp/UserServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/typeHandler/BooleanHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/typeHandler/DateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/com/jsu/js/typeHandler/StringArrayHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/config/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/Exception/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/Exception/MyExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/commons/RegexUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/commons/UploadUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/controller/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/controller/ExceptionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/converter/DateFormater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/converter/StringDateConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/District.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/Msg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/service/Imp/UserServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/typeHandler/BooleanHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/typeHandler/DateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/typeHandler/StringArrayHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/com/jsu/js/validator/UserValidater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/jsp/Ajaxregister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/jsp/error/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/jsp/error/notFound.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/classmate-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/hibernate-validator-5.4.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/jackson-annotations-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/jackson-core-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/jackson-databind-2.9.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/junit-jupiter-api-5.7.0-M1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/junit-platform-commons-1.7.0-M1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/log4j-api-2.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/log4j-core-2.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/log4j-jcl-2.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/mybatis-3.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/mybatis-spring-2.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/spring-aop-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/spring-aspects-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/spring-beans-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/spring-context-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/spring-core-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/spring-expression-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/spring-jcl-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/spring-jdbc-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/spring-tx-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/spring-web-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/spring-webmvc-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/resource/message_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/resource/message_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/upload/root/vue基础.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_formData/upload/root/新建 Microsoft Excel 工作表.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/config/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/commons/RegexUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/converter/DateFormater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/converter/StringDateConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/pojo/District.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/service/Imp/UserServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/typeHandler/BooleanHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/typeHandler/DateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/typeHandler/StringArrayHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/com/jsu/js/validator/UserValidater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/classmate-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/hibernate-validator-5.4.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/junit-jupiter-api-5.7.0-M1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/junit-platform-commons-1.7.0-M1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/log4j-api-2.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/log4j-core-2.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/log4j-jcl-2.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/mybatis-3.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/mybatis-spring-2.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/spring-aop-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/spring-aspects-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/spring-beans-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/spring-context-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/spring-core-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/spring-expression-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/spring-jcl-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/spring-jdbc-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/spring-tx-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/spring-web-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/spring-webmvc-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/resource/message_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/resource/message_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/springmvc_upload/upload/vue基础.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_ajax/target/test-classes/xx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/commons/RegexUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/converter/DateFormater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/converter/StringDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/typeHandler/BooleanHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/typeHandler/StringArrayHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/validator/UserValidater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/webapp/WEB-INF/resource/message_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/webapp/WEB-INF/resource/message_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/mvn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/mybatis-generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/springmvc_serverValidation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/springmvc_upload.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/commons/RegexUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/converter/DateFormater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/converter/StringDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/pojo/District.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/pojo/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/service/Imp/UserServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/typeHandler/BooleanHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/typeHandler/DateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/typeHandler/StringArrayHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/validator/UserValidater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/resources/com/jsu/config/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/resources/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/resources/com/jsu/js/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/test/xx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/webapp/WEB-INF/resource/message_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/webapp/WEB-INF/resource/message_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/webapp/WEB-INF/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/config/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/commons/RegexUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/converter/DateFormater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/converter/StringDateConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/pojo/District.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/service/Imp/UserServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/typeHandler/BooleanHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/typeHandler/DateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/typeHandler/StringArrayHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/com/jsu/js/validator/UserValidater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/config/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/commons/RegexUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/converter/DateFormater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/converter/StringDateConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/dao/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/District.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/service/Imp/UserServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/typeHandler/BooleanHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/typeHandler/DateHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/typeHandler/StringArrayHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/com/jsu/js/validator/UserValidater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/jsp/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/apiguardian-api-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/aspectjweaver-1.8.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/classmate-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/hibernate-validator-5.4.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/junit-jupiter-api-5.7.0-M1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/junit-platform-commons-1.7.0-M1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/log4j-api-2.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/log4j-core-2.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/log4j-jcl-2.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/mybatis-3.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/mybatis-spring-2.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/spring-aop-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/spring-aspects-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/spring-beans-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/spring-context-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/spring-core-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/spring-expression-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/spring-jcl-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/spring-jdbc-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/spring-tx-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/spring-web-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/spring-webmvc-5.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/resource/message_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/resource/message_zh_CN.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc_upload/target/springmvc_formData/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc数据绑定和表单标签.assets/image-20200429224731840.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc数据绑定和表单标签.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/服务器验证.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/resourceBundles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/java/com/jsu/js/controller/Il8nController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/src/main/java/com/jsu/js/controller/Il8nController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/WEB-INF/jsp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/WEB-INF/jsp/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/WEB-INF/resource/message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/WEB-INF/resource/message_zh_CN.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/WEB-INF/resource/message_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/WEB-INF/resource/message_en_US.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/WEB-INF/resource/message_zn_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_converter/src/main/resources/com/jsu/config/sqlMapperConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_converter/src/main/resources/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_converter/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_converter/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_converter/target/classes/com/jsu/config/sqlMapperConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_converter/target/classes/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_formData/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_formData/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_formData/src/main/java/com/jsu/js/typHandler/StringDateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_formData/src/main/java/com/jsu/js/typeHandler/StringDateHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_formData/src/main/resources/com/jsu/config/sqlMapperConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_formData/src/main/resources/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_formData/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_formData/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_formData/target/classes/com/jsu/js/typHandler/StringDateHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/springmvc_internationalization.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/springmvc_internationalization.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/java/com/jsu/js/controller/GoodController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/java/com/jsu/js/pojo/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/resources/com/jsu/config/sqlMapperConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/src/main/resources/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/resources/rebel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/.rebel.xml.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/WEB-INF/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/WEB-INF/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/target/springmvc_internationalization/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/target/springmvc_internationalization/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/target/classes/com/jsu/config/sqlMapperConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/target/classes/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/target/classes/com/jsu/js/controller/GoodController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/target/classes/com/jsu/js/pojo/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/target/classes/rebel.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springmvc_internationalization/target/springmvc_internationalization/WEB-INF/jsp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/target/springmvc_internationalization/WEB-INF/jsp/success.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springmvc_internationalization/target/springmvc_internationalization/WEB-INF/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/target/springmvc_internationalization/WEB-INF/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc_internationalization/target/springmvc_internationalization/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_internationalization/target/springmvc_internationalization/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/mybatis-generator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/mybatis-generator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/springmvc_serverValidation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/springmvc_serverValidation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/pojo/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/pojo/UserExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/typHandler/StringDateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/typeHandler/DateHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/src/main/resources/com/jsu/config/sqlMapperConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/resources/com/jsu/config/sqlMapperConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/src/main/resources/com/jsu/js/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/resources/com/jsu/js/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/src/main/webapp/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/src/main/webapp/WEB-INF/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/src/main/webapp/WEB-INF/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/classes/com/jsu/js/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/classes/com/jsu/js/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/classes/com/jsu/js/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/classes/com/jsu/js/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/classes/com/jsu/js/pojo/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/classes/com/jsu/js/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/classes/com/jsu/js/pojo/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/classes/com/jsu/js/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/classes/com/jsu/js/typHandler/StringDateHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/classes/com/jsu/js/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/classes/com/jsu/js/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/classes/com/jsu/js/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/classes/com/jsu/js/typHandler/StringDateHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc_serverValidation/target/springmvc_formData/WEB-INF/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring类型转换器.md" beforeDir="false" afterPath="$PROJECT_DIR$/spring类型转换器.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring表单标签.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/国际化.md" beforeDir="false" afterPath="$PROJECT_DIR$/国际化.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/服务器验证.md" beforeDir="false" afterPath="$PROJECT_DIR$/服务器验证.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +426,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -62,6 +453,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1b4ACWd6OAmKbwiZKW6SV1Ati1Q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -69,47 +463,59 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587872995976" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springmvc_internationalization/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springmvc_interceptor" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38090348" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaProjec\springmvc\springmvc_ajax\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\ideaProjec\springmvc\springmvc_internationalization\src\main\webapp\WEB-INF" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaProjec\springmvc\springmvc_internationalization\src\main\webapp" />
-      <recent name="D:\ideaProjec\springmvc\springmvc_internationalization\src\main\resources" />
-      <recent name="D:\ideaProjec\springmvc\springmvc_converter\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\ideaProjec\springmvc\springmvc_converter\src\main" />
-      <recent name="D:\ideaProjec\springmvc\springmvc_converter\src\main\java" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jsu.js.typeHandler" />
       <recent name="com.jsu.js" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideaProjec\springmvc\springmvc_internationalization\src\main\webapp\WEB-INF" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProjec\springmvc\springmvc_ajax\src\main\webapp\WEB-INF\jsp\error" />
+      <recent name="D:\ideaProjec\springmvc\springmvc_ajax\src\main\webapp\jsp" />
+      <recent name="D:\ideaProjec\springmvc\springmvc_ajax\src\main\webapp" />
+      <recent name="D:\ideaProjec\springmvc\springmvc_ajax\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\ideaProjec\springmvc\springmvc_serverValidation\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.0.47">
+    <configuration name="xx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xx" />
+      <module name="springmvc_ajax" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="xx.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springmvc_formData" />
       <extension name="coverage">
@@ -127,12 +533,13 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.0.47" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.47" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/springmvc_interceptor_war_exploded/" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="springmvc_internationalization:war exploded">
+        <artifact name="springmvc_interceptor:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/springmvc_internationalization_war_exploded" />
+            <option name="CONTEXT_PATH" value="/springmvc_interceptor_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -228,16 +635,18 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="springmvc_internationalization:war exploded" />
+          <artifact name="springmvc_interceptor:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.xx" />
       <item itemvalue="JUnit.xx.save" />
       <item itemvalue="Tomcat Server.Tomcat 8.0.47" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.xx" />
         <item itemvalue="JUnit.xx.save" />
       </list>
     </recent_temporary>
@@ -312,12 +721,17 @@
     <MESSAGE value="自定义类型转换器" />
     <MESSAGE value="spring类型转换器" />
     <MESSAGE value="springmvc表单标签和数据绑定demo" />
-    <MESSAGE value="修改" />
     <MESSAGE value="spring自定义类型转换器" />
     <MESSAGE value="springmvc 国际化" />
-    <option name="LAST_COMMIT_MESSAGE" value="springmvc 国际化" />
+    <MESSAGE value="修改" />
+    <MESSAGE value="服务器验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务器验证" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" width="814" height="729" key="#Intentions" timestamp="1588649679211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" width="814" height="729" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1588649679211" />
     <state x="292" y="246" key="#Template_Data_Languages" timestamp="1587906139793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -326,90 +740,126 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="542" y="308" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1587881750143" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587899411121">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589190535141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587899411121" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587902637543">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589190535141" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1589184428059">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587902637543" />
-    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1587882049955">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589184428059" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588645392533">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587882049955" />
-    <state width="858" height="448" key="DebuggerActiveHint" timestamp="1587900569373">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588645392533" />
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1588597177829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="858" height="448" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1587900569373" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587906539845">
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588597177829" />
+    <state x="524" y="114" key="#xdebugger.evaluate" timestamp="1588080815962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587906539845" />
-    <state width="1211" height="164" key="GridCell.Tab.0.bottom" timestamp="1587906545756">
+    <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1588080815962" />
+    <state x="453" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588650904916">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587906545756" />
-    <state width="1211" height="164" key="GridCell.Tab.0.center" timestamp="1587906545755">
+    <state x="453" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1588650904916" />
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1588067549703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587906545755" />
-    <state width="1211" height="164" key="GridCell.Tab.0.left" timestamp="1587906545755">
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588067549703" />
+    <state width="968" height="553" key="DebuggerActiveHint" timestamp="1588824988446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587906545755" />
-    <state width="1211" height="164" key="GridCell.Tab.0.right" timestamp="1587906545755">
+    <state width="968" height="553" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1588824988446" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589190477514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587906545755" />
-    <state width="1211" height="164" key="GridCell.Tab.1.bottom" timestamp="1587906545756">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589190477514" />
+    <state x="579" y="313" key="Github.CreateGistDialog" timestamp="1588084866140">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587906545756" />
-    <state width="1211" height="164" key="GridCell.Tab.1.center" timestamp="1587906545756">
+    <state x="579" y="313" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1588084866140" />
+    <state width="1238" height="232" key="GridCell.Tab.0.bottom" timestamp="1589191590664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587906545756" />
-    <state width="1211" height="164" key="GridCell.Tab.1.left" timestamp="1587906545756">
+    <state width="1238" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589191590664" />
+    <state width="1238" height="232" key="GridCell.Tab.0.center" timestamp="1589191590664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587906545756" />
-    <state width="1211" height="164" key="GridCell.Tab.1.right" timestamp="1587906545756">
+    <state width="1238" height="232" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589191590664" />
+    <state width="1238" height="232" key="GridCell.Tab.0.left" timestamp="1589191590664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587906545756" />
-    <state width="1211" height="164" key="GridCell.Tab.2.bottom" timestamp="1587906545756">
+    <state width="1238" height="232" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589191590664" />
+    <state width="1238" height="232" key="GridCell.Tab.0.right" timestamp="1589191590664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587906545756" />
-    <state width="1211" height="164" key="GridCell.Tab.2.center" timestamp="1587906545756">
+    <state width="1238" height="232" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589191590664" />
+    <state width="1238" height="232" key="GridCell.Tab.1.bottom" timestamp="1589191590665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1587906545756" />
-    <state width="1211" height="164" key="GridCell.Tab.2.left" timestamp="1587906545756">
+    <state width="1238" height="232" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589191590665" />
+    <state width="1238" height="232" key="GridCell.Tab.1.center" timestamp="1589191590665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1587906545756" />
-    <state width="1211" height="164" key="GridCell.Tab.2.right" timestamp="1587906545756">
+    <state width="1238" height="232" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589191590665" />
+    <state width="1238" height="232" key="GridCell.Tab.1.left" timestamp="1589191590665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1211" height="164" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1587906545756" />
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1587901775460">
+    <state width="1238" height="232" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589191590665" />
+    <state width="1238" height="232" key="GridCell.Tab.1.right" timestamp="1589191590665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1587901775460" />
-    <state x="464" y="113" key="SettingsEditor" timestamp="1587906074178">
+    <state width="1238" height="232" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589191590665" />
+    <state width="1238" height="232" key="GridCell.Tab.2.bottom" timestamp="1589191590665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="464" y="113" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587906074178" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587882064347">
+    <state width="1238" height="232" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589191590665" />
+    <state width="1238" height="232" key="GridCell.Tab.2.center" timestamp="1589191590665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587882064347" />
-    <state x="468" y="13" width="600" height="798" key="find.popup" timestamp="1587906187076">
+    <state width="1238" height="232" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1589191590665" />
+    <state width="1238" height="232" key="GridCell.Tab.2.left" timestamp="1589191590665">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="468" y="13" width="600" height="798" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587906187076" />
+    <state width="1238" height="232" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1589191590665" />
+    <state width="1238" height="232" key="GridCell.Tab.2.right" timestamp="1589191590665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1238" height="232" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1589191590665" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1588086277180">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1588086277180" />
+    <state x="623" y="116" width="723" height="592" key="NewModule_or_Project.wizard" timestamp="1589190481650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="623" y="116" width="723" height="592" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1589190481650" />
+    <state x="101" y="0" width="1359" height="710" key="SettingsEditor" timestamp="1589190497084">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="101" y="0" width="1359" height="710" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589190497084" />
+    <state x="490" y="154" width="561" height="524" key="StructurePopup" timestamp="1589182018083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="561" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1589182018083" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588062616997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1588062616997" />
+    <state x="468" y="13" width="600" height="798" key="find.popup" timestamp="1589184693613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="13" width="600" height="798" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1589184693613" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1589184405643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589184405643" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588598031114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588598031114" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -420,8 +870,13 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springmvc_formData/src/main/test/xx.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/springmvc_serverValidation/src/main/java/com/jsu/js/controller/UserController.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springmvc_upload/src/main/java/com/jsu/js/controller/UserController.java</url>
+          <line>99</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
@@ -429,6 +884,11 @@
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo typeName="org.apache.catalina.session.StandardSession" fieldName="attributes" />
+        <PinnedItemInfo typeName="org.springframework.validation.BeanPropertyBindingResult" fieldName="errors" />
+        <PinnedItemInfo typeName="com.jsu.js.pojo.User" fieldName="multipartFile" />
+        <PinnedItemInfo typeName="org.springframework.validation.FieldError" fieldName="rejectedValue" />
+        <PinnedItemInfo typeName="com.jsu.js.pojo.User" fieldName="houseRegister" />
+        <PinnedItemInfo typeName="com.jsu.js.pojo.User" fieldName="marriage" />
       </pinned-members>
     </pin-to-top-manager>
   </component>

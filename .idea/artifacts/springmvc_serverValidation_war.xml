@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springmvc_serverValidation:war">
+    <output-path>$PROJECT_DIR$/springmvc_serverValidation/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springmvc_serverValidation</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springmvc_formData.war">
+      <element id="artifact" artifact-name="springmvc_serverValidation:war exploded" />
+    </root>
+  </artifact>
+</component>

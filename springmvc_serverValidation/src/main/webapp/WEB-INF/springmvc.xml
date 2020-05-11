@@ -2,7 +2,8 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!--
       use-default-filter = true 使用默认的过滤器 @controller @service @Resposity @compoment
@@ -17,5 +18,97 @@
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+
+    <!--类型转换器注册-->
+    <!-- <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+         <property name="converters">
+             <list>
+                 <bean class="com.jsu.js.converter.StringDateConverter"/>
+             </list>
+         </property>
+     </bean>-->
+
+    <!--
+        格式化类型,可以将类型转换器和格式化器同时注册在FormattingConversionServiceFactoryBean中
+         -->
+    <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <!--类型转换器注册-->
+        <property name="converters">
+            <list>
+                <!--<bean class="com.jsu.js.converter.StringDateConverter"/>-->
+            </list>
+        </property>
+        <!--格式化器-->
+        <property name="formatters">
+            <list>
+                <bean class="com.jsu.js.converter.DateFormater"/>
+            </list>
+        </property>
+    </bean>
+
+    <mvc:annotation-driven conversion-service="conversionService"/>
+
+    <!--国际化-->
+    <!--
+1.加载资源文件ReloadableResourceBundleMessageSource
+-->
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <!--资源路径-->
+                <value>/WEB-INF/resource/message</value>
+            </list>
+        </property>
+        <!-- 设置utf-8编码-->
+        <property name="cacheSeconds" value="0"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
+
+    <!--
+    2.设置Locale
+        request域 AcceptHeaderLocaleResolver 获得请求作用域中的Locale
+                request.setLocal
+        session中设置 SessionLocalResolver
+                    在服务器内存中开辟空间，以(sessionId,locale对象）存储在session域中
+        cookie中设置 CookieLocaleResolver
+        一般推荐存储在session中
+      3.在页面显示内容
+        springmvc标签
+    -->
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+        <!--配置默认的locale-->
+        <property name="defaultLocale" value="zh_CN"/>
+        <!--
+            配置session中参数名
+            如果不设置,那么locale对象以
+            (类)SessionLocaleResolver.LOCALE_SESSION_ATTRIBUTE_NAME为 sessionId，
+            存储在session域中
+        -->
+        <property name="localeAttributeName" value="language"/>
+    </bean>
+
+    <!--配置locale的拦截器-->
+    <mvc:interceptors>
+        <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+            <!--
+                前端请求通常会附带一个参数，例如
+                <a href="il8n/sessionLocaleResover?requst_Locale=zh_CN">中文</a>
+                此时参数requst_Locale为参数名value值，参数的值‘zh_CN’将会赋值给locale对象
+            -->
+            <property name="paramName" value="requst_Locale"/>
+        </bean>
+    </mvc:interceptors>
+
+
+    <!--jsr303验证，声明验证器-->
+    <bean id="localValidatorFactoryBean"
+          class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+        <property name="providerClass" value="org.hibernate.validator.HibernateValidator"/>
+        <!--注入国际化的bean(messageSource),国际化配置在之前的小结有-->
+        <property name="validationMessageSource" ref="messageSource"/>
+    </bean>
+
+    <!--解析注解-->
+    <mvc:annotation-driven conversion-service="conversionService" validator="localValidatorFactoryBean"/>
 
 </beans>
