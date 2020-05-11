@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mybatis="http://mybatis.org/schema/mybatis-spring" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!--spring自动扫描-->
+    <context:component-scan base-package="com.jsu"/>
+
+    <!--数据库链接-->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+        <property name="url"
+                  value="jdbc:mysql://localhost:3306/transactiontest?useUnicode=true&amp;characterEncoding=utf-8"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+    </bean>
+
+    <!--  事务管理器 完成手动事务管理-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 配置SqlSessionFactory
+        用于创建sqlSession（会话对象），每一个会话对象相当于 Connection
+     -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--MyBatis 在映射器类对应的路径下找不到与之相对应的映射器 XML 文件，配置方法-->
+        <!--  <property name="configLocation" value="classpath:com/jsu/config/sqlMapperConfig.xml"/>-->
+
+        <!--设置别名-->
+        <property name="typeAliasesPackage" value="com.jsu.js.pojo"/>
+
+        <!--mapper映射路径-->
+        <!--
+        classpath只能加载找到的匹配的第一个资源目录下文件
+        classpath*能加载多个路径下的资源目录下文件.
+        -->
+      <!--  <property name="mapperLocations" value="classpath*:com/jsu/js/dao/**/*.xml"/>-->
+
+        <!--configuration 属性能够在没有对应的 MyBatis XML 配置文件的情况下，直接设置configuration实例-->
+        <property name="configuration">
+            <bean class="org.apache.ibatis.session.Configuration">
+                <!--开启驼峰式-->
+                <!--这里配置相当于mybatis配置文件中的setting-->
+                <property name="mapUnderscoreToCamelCase" value="true"/>
+                <!--懒加载-->
+                <property name="lazyLoadingEnabled" value="true"/>
+                <property name="aggressiveLazyLoading" value="false"/>
+             </bean>
+        </property>
+        <!-- 配置数据源 -->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--mybatis自动扫描
+        自动扫描映射接口xxxMapper，产生代理对象
+    -->
+    <mybatis:scan base-package="com.jsu.dao"/>
+
+    <!--开启注解事务-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+</beans>
