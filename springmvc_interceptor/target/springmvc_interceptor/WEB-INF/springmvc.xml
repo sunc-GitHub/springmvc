@@ -125,26 +125,10 @@
        DispatchServlet不拦截静态资源
        http://localhost:8080/springmvc_05_i18n_war_exploded/static/js/jquery.min.js
    -->
-    <mvc:resources mapping="/static/**" location="/static/"/>
+    <mvc:resources mapping="/static/**" location="/static/" />
 
-    <!--配置SimpleMappingExceptionResolver，（异常类与view的对应关系）-->
-    <!-- <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
-         &lt;!&ndash;定义默认的异常处理页面&ndash;&gt;
-         <property name="defaultErrorView" value="error/error"></property>
-         &lt;!&ndash;定义异常处理页面获取异常的变量名，默认为exception&ndash;&gt;
-         <property name="exceptionAttribute" value="ex"></property>
-         &lt;!&ndash;定义特殊处理异常，用类名或者完全路径作为key,异常页名作为值&ndash;&gt;
-         <property name="exceptionMappings">
-             <props>
-                 <prop key="java.sql.SQLException">error/error</prop>
-                 <prop key="com.jsu.js.Exception.MyException">error/error</prop>
-             </props>
-         </property>
-     </bean>-->
 
-    <!--<bean class="com.jsu.js.Exception.MyExceptionHandler"/>-->
-
-    <!--配置SimpleMappingExceptionResolver，（异常类与view的对应关系）-->
+    <!--配置GlobalExceptionResolver，（异常类与view的对应关系）-->
     <bean class="com.jsu.js.Exception.GlobalExceptionResolver">
         <!--定义默认的异常处理页面-->
         <property name="defaultErrorView" value="error/error"></property>
@@ -158,6 +142,24 @@
             </props>
         </property>
     </bean>
+
+    <!--定义单个拦截器-->
+    <mvc:interceptors>
+        <!--配置全局拦截器 -->
+        <bean class="com.jsu.js.interceptor.AuthInterceptor"/>
+    </mvc:interceptors>
+
+    <!--配置多个拦截器-->
+   <!-- <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="**"/>
+            <bean/>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/interceptor/"/>
+            <bean/>
+        </mvc:interceptor>
+    </mvc:interceptors>-->
 
 
 </beans>

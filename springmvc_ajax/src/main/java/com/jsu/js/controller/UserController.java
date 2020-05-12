@@ -46,6 +46,11 @@ public class UserController {
     public Msg saveUser(@Valid User user, Errors errors, Model model,
                         HttpServletRequest req, HttpServletResponse response)
             throws IOException {
+
+        //测试异常
+        //int i = 1 / 0;
+
+
         Map errorMap = new HashMap<>(10);
         //JSR303服务器校验
         if (errors.hasErrors()) {

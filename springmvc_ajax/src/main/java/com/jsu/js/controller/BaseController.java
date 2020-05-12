@@ -3,13 +3,12 @@ package com.jsu.js.controller;
 import com.jsu.js.Exception.MyException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import java.sql.SQLException;
 
 /**
- * @description:
+ * @description: @ExceptionHandle注解异常注解异常
  * @author: sunc-idea
  * @time: 2020/5/11 16:57
  */

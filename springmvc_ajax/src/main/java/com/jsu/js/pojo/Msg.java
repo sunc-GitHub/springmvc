@@ -11,6 +11,24 @@ public class Msg {
 
     private Boolean flag;
     private Map data;
+    private String message;
+
+    public Msg(Boolean flag, Map data, String message) {
+        this.flag = flag;
+        this.data = data;
+        this.message = message;
+    }
+
+    public Msg() {
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
 
     public Boolean getFlag() {
         return flag;

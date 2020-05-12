@@ -135,8 +135,11 @@
                         window.location.href = "${pageContext.request.contextPath}/jsp/success.jsp";
                     }
                 },
-                error: function () {
-                    console.log("提交失败")
+                error: function (e) {
+                    //返回500错误 或者其他 http状态码错误时 需要在error 回调函数中处理了 并且返回的数据还不能直接alert，需要使用
+                    //$.parseJSON 进行转译    res.msg 是自己组装的错误信息通用变量
+                    var res = $.parseJSON(e.responseText);
+                    layer.msg(res.msg);
                 }
             });
         });
